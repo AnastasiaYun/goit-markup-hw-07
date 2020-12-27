@@ -37,17 +37,18 @@
   transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.button-portfolio-item:hover,
-.button-portfolio-item:focus {
-  min-width: 70px;
-  border-radius: 4px;
-  color: var(--white-color);
-  background-color: var(--accent-color);
-  text-align: center;
-  border: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    min-width: 70px;
+    border-radius: 4px;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    text-align: center;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+  }
 }
 .button-portfolio {
   display: flex;

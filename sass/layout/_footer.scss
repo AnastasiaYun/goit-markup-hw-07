@@ -20,12 +20,13 @@
   color: var(--white-color);
   opacity: 60%;
   padding-bottom: 10px;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    opacity: 100%;
+  }
 }
-.footer-address-mail-tel a:hover,
-.footer-address-mail-tel a:focus {
-  color: var(--accent-color);
-  opacity: 100%;
-}
+
 .logo-footer span {
   color: var(--accent-color);
 }
@@ -64,10 +65,10 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link-social-icons-footer:hover,
-.link-social-icons-footer:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 /* Форма футера */
 .footer-form {

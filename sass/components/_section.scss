@@ -5,6 +5,9 @@ section {
   letter-spacing: 0.03em;
   padding-top: 95px;
   padding-bottom: 95px;
+  & li {
+    list-style: none;
+  }
 }
 .section-features {
   display: flex;
@@ -30,9 +33,6 @@ section {
 }
 .selection-text {
   width: 270px;
-}
-.section li {
-  list-style: none;
 }
 .section-title {
   font-weight: 700;

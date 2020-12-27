@@ -16,6 +16,10 @@
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 .clients-icons {
   fill: var(--icons);
@@ -26,8 +30,4 @@
 .clients-button:hover .clients-icons,
 .clients-button:focus .clients-icons {
   fill: var(--accent-color);
-}
-.clients-button:hover,
-.clients-button:focus {
-  border-color: var(--accent-color);
 }
